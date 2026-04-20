@@ -1,0 +1,11 @@
+@function sm($px) {
+    @return calc(#{$px} * (100vw / 750));
+}
+
+@function md($px) {
+    @return calc(#{$px} * (100vw / 1300));
+}
+
+@function lg($px) {
+    @return calc(#{$px} * (100vw / 1920));
+}

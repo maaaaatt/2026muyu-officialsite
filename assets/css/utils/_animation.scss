@@ -1,0 +1,76 @@
+.scale-in {
+    $delay:.7s;
+    transform:scale(0.1);
+    transition:transform $delay, opacity $delay;
+    opacity:0;
+    &.active {
+        transform:perspective(1px) scale(1);
+        opacity:1;
+    }
+}
+
+.zoom-in {
+    $delay:.7s;
+    transform:scale(1.5);
+    transition:transform $delay, opacity $delay;
+    opacity:0;
+    &.active {
+        transform:perspective(1px) scale(1);
+        opacity:1;
+    }
+}
+
+.top-in {
+    $delay:.7s;
+    transform:translateY(-30px);
+    opacity:0;
+    transition:transform $delay, opacity $delay;
+    &.active {
+        transform:perspective(1px) translateY(0);
+        opacity:1;
+    }
+}
+
+.bottom-in {
+    $delay:.7s;
+    transform:translateY(30px);
+    opacity:0;
+    transition:transform $delay, opacity $delay;
+    &.active {
+        transform:perspective(1px) translateY(0);
+        opacity:1;
+    }
+}
+
+.left-in {
+    $delay:.7s;
+    transform:translateX(-50px);
+    opacity:0;
+    transition:transform $delay, opacity $delay;
+    &.active {
+        transform:perspective(1px) translateY(0);
+        opacity:1;
+    }
+}
+
+.right-in {
+    $delay:.7s;
+    transform:translateX(50px);
+    opacity:0;
+    transition:transform $delay, opacity $delay;
+    &.active {
+        transform:perspective(1px) translateX(0);
+        opacity:1;
+    }
+}
+
+.fade-in {
+    $delay:.7s;
+    opacity:0;
+    transition:transform $delay, opacity $delay;
+
+    &.active {
+        opacity:1;
+        transform:perspective(1px) translate(0, 0);
+    }
+}

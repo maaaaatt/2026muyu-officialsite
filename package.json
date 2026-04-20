@@ -1,0 +1,39 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "start": "node .output/server/index.mjs",
+    "d": "nvm use 22 && nuxt dev --dotenv .env.dev --https",
+    "generate": "nuxt generate",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "18": "^0.0.0",
+    "@nuxtjs/robots": "^5.2.10",
+    "gsap": "^3.12.7",
+    "js-cookie": "^3.0.5",
+    "m5att-utils": "^1.0.0",
+    "nuxt": "latest",
+    "nuxt-schema-org": "latest",
+    "sweetalert2": "^11.21.0",
+    "vue": "latest"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610",
+  "devDependencies": {
+    "@nuxtjs/google-fonts": "latest",
+    "@nuxtjs/sitemap": "latest",
+    "@nuxtjs/tailwindcss": "latest",
+    "@pinia/nuxt": "latest",
+    "nodemailer": "latest",
+    "nuxt-nodemailer": "latest",
+    "nuxt-proxy-request": "^2.1.0",
+    "pinia": "latest",
+    "sass": "latest",
+    "vite-plugin-pug": "latest"
+  },
+  "engines": {
+    "node": "22"
+  }
+}
