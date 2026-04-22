@@ -1,8 +1,6 @@
 <template lang="pug">
-.main(:class="route.name+' bg-[#ccffff] p-[20px] pt-0'")
-    p(class="text-[12px] font-robot py-[5px]") default layout
-    div(class="bg-white overflow-hidden")
-        slot
+.wrapper(:class="route.name", class="pt-[140px] lg:pt-[128px]")
+    slot
 </template>
 <script setup>
 const route = useRoute();

@@ -17,6 +17,6 @@ function cookieFromRequestHeaders(key) {
 export default defineNuxtPlugin(async (nuxtApp)=>{
     const loginStatus = cookieFromRequestHeaders('loginStatus') ?? Cookie.get('loginStatus') ?? 0;
     const store = useSiteInfoStore(nuxtApp.$pinia);
-    store.login(loginStatus);
-    await store.getInfo();
+    // store.login(loginStatus);
+    // await store.getInfo();
 });

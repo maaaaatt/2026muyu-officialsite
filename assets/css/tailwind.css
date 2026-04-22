@@ -9,8 +9,8 @@
     
     html {
         font-family: "Noto Sans TC";
-        line-height: 1.5;
         text-size-adjust: 100%;
+        font-size: 62.5%;
     }
 
     img {
@@ -21,4 +21,21 @@
         box-sizing:border-box;
         max-height: 99999px;
     }
+
+    .h1 {
+        @apply text-[2.8rem] leading-[4rem];
+    }
+    .h2 {
+        @apply text-[2rem] leading-[2.8rem];
+    }
+    .title {
+        @apply text-[1.8rem] leading-[2.4rem];
+    }
+    .text {
+        @apply text-[1.6rem] leading-[2.4rem];
+    }
+    .caption {
+        @apply text-[1.2rem] leading-[2rem];
+    }
+    
 }

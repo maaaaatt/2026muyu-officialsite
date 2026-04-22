@@ -7,8 +7,14 @@ export default {
 				'robot':['"Roboto"']
 			},
 			colors: {
-				primary: '#104e94',
-				secondary: '#104e94'
+				primary: '#82A6A6',
+				secondary: '#F4E8DA',
+				icon:'#F4A466',
+				iconHeavy:'#DA803B',
+				iconSecondary:'#FBCB72',
+				accent:'#A1D8E6',
+				accentHeavy:'#998675',
+				textSecondary:'#666'
 			},
 			keyframes: {
 				loading: {
