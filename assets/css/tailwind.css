@@ -23,13 +23,13 @@
     }
 
     .h1 {
-        @apply text-[2.8rem] leading-[4rem];
+        @apply text-[2.8rem] leading-[4rem] font-bold;
     }
     .h2 {
-        @apply text-[2rem] leading-[2.8rem];
+        @apply text-[2rem] leading-[2.8rem] font-bold;
     }
     .title {
-        @apply text-[1.8rem] leading-[2.4rem];
+        @apply text-[1.8rem] leading-[2.4rem] font-bold;
     }
     .text {
         @apply text-[1.6rem] leading-[2.4rem];

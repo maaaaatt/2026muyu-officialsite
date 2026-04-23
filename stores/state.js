@@ -5,7 +5,6 @@ const createState = ()=>({
         description:''
     },
     _nav:[
-        {name:'首頁', link:'/'},
         {name:'關於沐語', link:'/about',
             subnav:[
                 {name:'診所起源', link:'/about#origin'},
@@ -20,7 +19,7 @@ const createState = ()=>({
                 {name:'特色輔助復健', link:'/service/featured-therapy'},
             ]
         },
-        {name:'就診指引', link:'guide',
+        {name:'就診指引', link:'/guide',
             subnav:[
                 {name:'就診流程', link:'/guide#process'},
                 {name:'就診常見問題', link:'/guide/faq'},

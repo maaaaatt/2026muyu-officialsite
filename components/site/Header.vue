@@ -37,7 +37,7 @@ header.site-header(class="fixed left-0 top-0 w-full bg-primary z-[999]")
 				img(src="assets/images/icon_x.svg", class="w-[32px]")
 	
 	.header(class="bg-secondary")
-		.container(class="flex justify-between items-center h-[64px] lg:h-[80px] mx-auto")
+		.container(class="relative flex justify-between items-center h-[64px] lg:h-[80px] mx-auto")
 			h1.site-logo(class="w-[216px] lg:w-[240px] ml-[20px] lg:mx-0")
 				a(href="#")
 					img(src="assets/images/logo.svg", class="w-full block")
