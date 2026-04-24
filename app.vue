@@ -3,7 +3,7 @@ SiteLoading
 SiteHeader
 NuxtLayout
 	NuxtPage
-SiteFooter
+	SiteFooter
 </template>
 <script setup>
 import { useSiteInfoStore } from '@/stores';
