@@ -22,6 +22,12 @@
         max-height: 99999px;
     }
 
+    .wrapper {
+        &.about {
+            @apply bg-accentHeavy;
+        }
+    }
+
     .h1 {
         @apply text-[2.8rem] leading-[4rem] font-bold;
     }

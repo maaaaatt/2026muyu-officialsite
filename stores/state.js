@@ -15,7 +15,7 @@ const createState = ()=>({
             subnav:[
                 {name:'復健科', link:'/service/rehabilitation'},
                 {name:'小兒科 感冒家醫、疫苗注射', link:'/service/pediatrics'},
-                {name:'復健治療項目', link:'#'},
+                {name:'復健治療項目', link:'/service/items'},
                 {name:'特色輔助復健', link:'/service/featured-therapy'},
             ]
         },

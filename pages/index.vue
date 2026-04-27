@@ -187,6 +187,9 @@ section.top {
                 @apply relative w-[250px] px-[20px] py-[10px] mb-[15px] bg-[url(assets/images/home/btn_bg.svg)] bg-[length:100%_100%];
                 > a {
                     @apply relative w-full flex justify-between items-center py-[5px] text-white;
+                    i {
+                        @apply transition-all duration-300;
+                    }
                 }
     
                 &.active {

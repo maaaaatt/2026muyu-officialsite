@@ -24,6 +24,16 @@ export function stripHtmlTag(html) {
     return html.replace( /(<([^>]+)>)/ig, '');
 }
 
+export const getImgUrl = (path) => {
+  // 這裡路徑必須使用字面常數，不能完全動態，Vite 才能預先掃描
+  const images = import.meta.glob('@/assets/images/**/*', { 
+    eager: true, 
+    import: 'default' 
+  })
+  
+  const fullPath = `/assets/images/${path}`
+  return images[fullPath] || '' // 若找不到則回傳空字串
+}
 
 export function foo (){
 	return 'bar';

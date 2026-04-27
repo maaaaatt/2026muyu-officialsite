@@ -1,6 +1,6 @@
 <template lang="pug">
 footer.site-footer
-    .wave(class="w-full h-[47px] lg:h-[94px] bg-[url(assets/images/footer_bg.png)] md:bg-[url(assets/images/footer_bg_lg.png)] bg-[length:auto_100%] bg-center")
+    .wave(class="w-full h-[47px] md:h-[94px] bg-[url(assets/images/footer_bg.png)] md:bg-[url(assets/images/footer_bg_lg.png)] bg-[length:auto_100%] bg-center")
     .bg-wrap(class="bg-primary")
         .container(class="overflow-hidden mx-auto pt-[60px] lg:p-0")
             .row(class="flex flex-col gap-y-[20px] lg:flex-row lg:justify-between lg:items-center")
