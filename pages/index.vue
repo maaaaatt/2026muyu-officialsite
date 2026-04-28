@@ -344,16 +344,14 @@ const { apiPath, rootPath } = config.public;
 
 // const {data:siteInfoResData} = await useApi('SiteInfo');
 // const metaTitle = ref(siteInfoResData.value.data.meta.title);
-const metaTitle = ref('index');
 
 // const {data:bannerResData} = await useApi('SiteBannerList?brand=kuno&page=home');
 // const bannerData = reactive(bannerResData.value.data);
 
 useHead({
-    title:metaTitle,
-    titleTemplate: `%s - ${store.meta.title}`
-    
+    titleTemplate:store.meta.title,
 });
+
 const setSelectedItem = (itemName)=>{
 	if (selectedItem.value==itemName)selectedItem.value = '';
 	else selectedItem.value = itemName;

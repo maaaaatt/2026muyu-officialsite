@@ -4,13 +4,13 @@
     
     section.content
         uiHeadingSectionTitle(class="-mt-[72px] md:-mt-[43px]")
-            template(v-slot:title) 復健科醫生
-            template(v-slot:description) 復健科醫師負責整體評估孩子的發展狀況，提供精準診斷並規劃個別化復健治療方向。<br>同時整合物理、職能、語言與心理等跨專業團隊，持續追蹤與調整治療，確保孩子在最佳時機獲得最適合的幫助。
+            template(v-slot:title) 小兒科醫生
+            template(v-slot:description) 醫師看診，讓家長們可以在診所內同時解決常見的感冒或是其他兒童疾病處置、兒童疫苗注射等。
         .container(class="max-w-[580px] mx-auto")
             p.text(class="p-[40px]")
-                |在孩子成長的每一步，由復健科醫師全程把關，從動作發展、語言能力到行為與認知，進行整體評估與精準診斷。醫師不僅負責開立治療處方，更統籌物理、職能、語言與心理等跨專業團隊，為每位孩子量身打造最適合的復健計畫。結合小兒科醫師的健康照護，讓發展與醫療同步守護，避免延誤黃金治療時機。<br>
+                |為提供更完整且連貫的兒童照護，我們特別增聘小兒專科醫師，與復健團隊緊密合作，打造一站式整合醫療服務。讓孩子在同一個診所就能同時完成疾病評估與發展照護，減少家長奔波不便。<br>
                 br
-                |在這裡，我們以兒童為核心，提供安全、溫暖且專業的全方位復健環境，讓家長安心、孩子放心成長。
+                |提供全方位診療，無論是感冒、過敏，或是生長發育與預防保健，都能即時評估並銜接復健治療。透過小兒醫師與治療團隊的緊密合作，更精準掌握孩子整體發展狀況，及早發現問題並制定個別化治療與照護計畫，大幅提升療效與照護效率。
 </template>
 <style lang="scss" scoped>
 section.top {
@@ -43,7 +43,7 @@ const { apiPath, rootPath } = config.public;
 // const bannerData = reactive(bannerResData.value.data);
 
 definePageMeta({
-    title:'復健科醫生',
+    title:'小兒科醫生',
 })
 
 const setSelectedItem = (itemName)=>{
